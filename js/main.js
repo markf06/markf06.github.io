@@ -20,7 +20,8 @@ var gl = renderer.getContext()
 
 var objects = []
 
-Mesh.load(gl, '/assets/sphere.obj', '/assets/diffuse.png')
+Mesh.load(gl, '/assets/Toaster5.obj', '/assets/diffuse.png')
+//Mesh.load(gl, '/assets/sphere.obj', '/assets/diffuse.png')
     .then(function (mesh) {
       objects.push(mesh)
     })
